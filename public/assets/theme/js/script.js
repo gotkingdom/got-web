@@ -1022,8 +1022,8 @@ window.onload = function(){
 ctx2.drawImage(image, 0,0, 1500,1000);
 */
   
-  var w = canvasFire.width = window.innerWidth * 2;
-  var h = canvasFire.height = window.innerHeight * 2;
+  var w = canvasFire.width = window.innerWidth;
+  var h = canvasFire.height = window.innerHeight;
 
   var numParticles = 50,
       particles = [],
