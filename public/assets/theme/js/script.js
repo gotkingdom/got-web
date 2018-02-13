@@ -1110,7 +1110,7 @@ ctx2.drawImage(image, 0,0, 1500,1000);
 var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));  
 if (mobile) { 
 // Set the date we're counting down to
-var countDownDate = new Date("April 1, 2019 15:37:25").getTime();
+var countDownDate = new Date("April 14, 2019 21:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
